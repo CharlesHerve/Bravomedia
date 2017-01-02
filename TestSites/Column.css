@@ -1,0 +1,61 @@
+/* CSS Reset */
+* { margin: 0; padding: 0; }
+
+/* Basic Responsive Image */
+img {
+  width: 100%;
+  height: auto;
+  border: 15px solid #484848;;
+  padding: 10px;
+}
+/**image list*/
+ul.imagelist {
+    list-style-type:none;
+	
+}
+
+
+/* Responsive Images with different device display  */
+
+.breakpoint { /* One column for smartphones */
+  max-width: 100%;
+  display: inline-block;
+}
+@media (min-width: 420px) { /* Two columns for tablets */
+  .breakpoint {
+    max-width: 43%;
+  }
+}
+@media (min-width: 760px) { /* Four columns for large devices */
+  .breakpoint {
+    max-width: 27%;
+  }
+}
+
+
+
+/*  Page Styles: Layout */
+
+
+section {
+  margin: 60px auto;
+}
+
+
+/*  Page Styles: Media Queries */
+@media (max-width: 400px) {
+  body {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+
+
+
+
+

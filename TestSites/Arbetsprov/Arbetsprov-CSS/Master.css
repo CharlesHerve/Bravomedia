@@ -1,0 +1,158 @@
+/* CSS Document */
+body {	
+	margin: 0px;
+	padding: 0px;
+}
+
+*{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.Container { 
+	width: 1000px; 
+	height: auto; 
+	clear: both; 
+	overflow: auto;
+	margin: 60px auto; 
+	position: relative;
+}
+
+
+
+Header {
+		height: 50px; 
+	    width: 200px;
+	    background-image: url(logoBravomedia.png);
+		background-repeat: no-repeat;
+		background-position: center;
+}
+
+
+
+
+.Body {	height: auto;}
+.FormElement { width: 350px; margin: 16px auto; height: 50px; background-color: white;}
+
+.TField{width: 350px; height: 35px; border: 1px; solid #E0DFDF; padding-left: 6px; font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; font-size: 17px;}
+button { width: 200px; height: 50px; border: 0px solid; background-color: rgba(47,83,168,1.00);}
+/*button:hover { background-color: rgba (26,8,114,1.00); color: #FFF; font-size: 24px; }*/
+
+
+
+/*Footer { height: 100px; }*/
+
+
+
+
+/*Menu*/
+.Menu {
+	width:800px;
+	height:50px;
+	margin: 11px auto 11px auto;
+	clear:both;
+	background-color:rgb(13, 13, 13);
+}
+nav .cssmenu { margin:0; padding:0 }
+nav .cssmenu li {
+	list-style-type:none;
+	display:block;
+	float:left;
+	width:160px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:17px;
+	font-weight:lighter;
+}
+nav .cssmenu li a {
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+}
+nav .cssmenu li:before {
+	float:left;
+	color:#EEE;
+}
+nav .cssmenu li:first-child:before {
+content: none;
+}
+nav .cssmenu li:hover {
+	background-color:rgb(242, 242, 242);
+}
+nav .cssmenu li:hover a {
+	color:#000;
+}
+nav .cssmenu ul li:hover a {
+	color:#000;
+}
+nav .cssmenu ul ul li:hover a {
+	color:#000;
+}
+nav .cssmenu ul {
+	display:none;
+}
+nav .cssmenu li:hover > ul {
+	display:block;
+}
+nav .cssmenu ul li {
+	background-color:rgb(242, 242, 242);
+}
+nav .cssmenu ul li:hover {
+	background-color:#CCC;
+}
+nav .cssmenu ul ul {
+	display:none;
+}
+nav .cssmenu ul li:hover > ul {
+	display:block;
+	margin-left:160px;
+	margin-top:-50px;
+}
+nav .cssmenu ul ul li {
+	background-color:rgb(242, 242, 242);
+	content: none;
+}
+nav .cssmenu ul ul li:hover {
+	background-color:#CCC;
+}
+li {
+	font-weight:lighter;
+}
+
+@media all and (min-width: 900px) {
+	#Menu {
+		display:block;
+	}
+	.header {
+		display:none;
+	}
+}
+@media all and (max-width: 900px) {
+	#Menu {
+		display:none;
+	}
+	.header {
+
+		display:block;
+	}
+}
+/*-------------------------------------------*/
+
+
+/*table*/
+table, tr, th, td {
+    border: 1px solid grey;
+}
+/*****************FORM**************************************/
+
+

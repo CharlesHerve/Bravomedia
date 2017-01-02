@@ -1,0 +1,50 @@
+position:relative;position:relative;position:relative;fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}div.RightBody {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; /* to center the container */
+}
+.center-div {
+     margin: 0 auto;
+     width: 100px; 
+}
+
+
+
+#carrousel{
+    position:absolute;
+    height:200px;
+    width:400px;
+    margin:auto;
+}
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+img{
+	height:400px;
+    width:800px;
+	
+}
